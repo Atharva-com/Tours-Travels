@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel{
+  height: 33rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 768px) {
+  .carousel{
+    height: 33rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 1024px) {
+  .carousel{
+    height: 35rem;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.dot{
+  background: #00095E !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.control-dots{
+  display: none;
+  text-align: start !important;
+  left: 30px;
+}
+
+@media (min-width: 768px) {
+  .control-dots{
+    display: block;
+    left: 70px !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 1024px) {
+  .control-dots{
+    display: block;
+    left: 100px !important;
   }
+}
+
+.bg-img{
+  background-image: url('/src/Assets/parallex\ image.webp');
+  height: 100%;
+  width: 100%;
 }
