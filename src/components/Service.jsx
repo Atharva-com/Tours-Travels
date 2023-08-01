@@ -1,28 +1,68 @@
-import React from 'react'
-import rental from '../Assets/car rental.jpg'
-import advisor from '../Assets/trip advisor.jpg'
-import Customization from '../Assets/customization.jpg'
-import driver from '../Assets/driver.jpg'
-import safe from '../Assets/safe journey.jpg'
-import luggage from '../Assets/luggage.jpg'
-import Vehicles from '../Assets/well vehicles.jpg'
-
+import React from "react";
+import rental from "../Assets/car rental.jpg";
+import advisor from "../Assets/trip advisor.jpg";
+import Customization from "../Assets/customization.jpg";
+import driver from "../Assets/driver.jpg";
+import safe from "../Assets/safe journey.jpg";
+import luggage from "../Assets/luggage.jpg";
+import Vehicles from "../Assets/well vehicles.jpg";
 
 const Service = () => {
-    return (
-        <div className='my-20 xl:mx-28 lg:mx-20 sm:mx-12 mx-4'>
-            {/* Heading */}
-            <div className='flex flex-col items-center my-16'>
+  return (
+    <div className="my-20 xl:mx-28 lg:sm:mx-20 sm:mx-12 mx-4">
+      {/* Heading */}
+      <div className="flex flex-col items-center my-16">
+        <h1 className="text-xl font-normal tracking-wide text-orange-400">
+          Why plan with us
+        </h1>
 
-                <h1 className='text-xl font-normal tracking-wide text-orange-400'> Why plan with us </h1>
+        <h1 className="text-5xl font-bold tracking-wide text-black">
+          Our Speciality
+        </h1>
+      </div>
 
-                <h1 className='text-5xl font-bold tracking-wide text-black'>Our Services</h1>
+      <div className="w-full flex justify-evenly text-xl text-[#00095E]">
+        <ul className="list-disc text-[#00095E] text-xl grid sm:grid-cols-2">
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Car Rentals
+            </h1>
+          </li>
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Trip Advisor
+            </h1>
+          </li>
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Customization & Flexibility
+            </h1>
+          </li>
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Professional Drivers
+            </h1>
+          </li>
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Comfortable & Safe Journey
+            </h1>
+          </li>
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Proper Luggage Management
+            </h1>
+          </li>
+          <li className="mt-5 sm:mx-20">
+            <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
+              Well Maintained Vehicles
+            </h1>
+          </li>
+        </ul>
+      </div>
+      {/* grid design */}
 
-            </div>
-
-            {/* grid design */}
-
-            <div className='p-4'>
+      {/* <div className='p-4'>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
 
@@ -90,9 +130,9 @@ const Service = () => {
                     </div>
 
                 </div>
-            </div>
-        </div>
-    )
-}
+            </div> */}
+    </div>
+  );
+};
 
-export default Service
+export default Service;
