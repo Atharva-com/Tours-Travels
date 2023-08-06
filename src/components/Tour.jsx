@@ -23,7 +23,7 @@ const Tour = () => {
   return (
     <div className="my-20 xl:mx-28 lg:mx-20 sm:mx-12 mx-4">
       <div className="my-16 leading-12 flex flex-col items-center justify-center gap-y-3">
-        <h1 className="text-xl font-medium tracking-wide text-orange-400">
+        <h1 className="text-2xl font-medium tracking-wide text-orange-400">
           Tour Packages
         </h1>
 
@@ -154,32 +154,32 @@ const Tour = () => {
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              &rarr; Bramarambika Devi Temple
+                &rarr; Bramarambika Devi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              &rarr; Sakshi Ganapathi Temple
+                &rarr; Sakshi Ganapathi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              &rarr; Paladhara, Panchadhara
+                &rarr; Paladhara, Panchadhara
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              &rarr; Hatkeshwar Temple
+                &rarr; Hatkeshwar Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              &rarr; Srisailam Dam
+                &rarr; Srisailam Dam
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              &rarr; Paatala Ganga
+                &rarr; Paatala Ganga
               </h1>
             </li>
           </ul>
@@ -385,68 +385,68 @@ const Tour = () => {
           <ul className="list-disc text-[#00095E] text-xl grid sm:grid-cols-2">
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Srisailam Mallikarjuna Jyotirlinga
+                &rarr; Srisailam Mallikarjuna Jyotirlinga
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Bramarambika Devi Temple
+                &rarr; Bramarambika Devi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Sakshi Ganapathi Temple
+                &rarr; Sakshi Ganapathi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Paladhara, Panchadhara
+                &rarr; Paladhara, Panchadhara
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Sikharam, Srisailam
+                &rarr; Sikharam, Srisailam
               </h1>
             </li>
 
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Hatkeshwar Temple
+                &rarr; Hatkeshwar Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Srisailam Dam
+                &rarr; Srisailam Dam
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Paatala Ganga
+                &rarr; Paatala Ganga
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Octopus View Point
+                &rarr; Octopus View Point
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Srisailam Tiger Reserve
+                &rarr; Srisailam Tiger Reserve
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Ropeway, Srisailam Boating
+                &rarr; Ropeway, Srisailam Boating
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Akha Mahadevi Temple
+                &rarr; Akha Mahadevi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Chenchu Lakshmi Museum
+                &rarr; Chenchu Lakshmi Museum
               </h1>
             </li>
           </ul>
@@ -475,35 +475,35 @@ const Tour = () => {
         </div>
       </div>
 
-      <div class="md:col md:columns-2 my-5 mt-24 mx-2 md:flex w-full md:py-10 md:px-16">
-        <div class="m-8 md:w-1/2 text-xl flex-grow items-center justify-center space-y-5">
-          <h2 class="text-3xl font-bold text-center text-green-600">
+      <div className="md:col md:columns-2 my-5 mt-24 mx-2 md:flex w-full md:py-10 md:px-16">
+        <div className="m-8 md:w-1/2 text-xl flex-grow items-center justify-center space-y-5">
+          <h2 className="text-3xl font-bold text-center text-green-600">
             Package Inclusions
           </h2>
-          <ul class="list-disc md:px-20">
-            <li>
-              Cab for round trip from Hyderabad-Srisailam-Hyderabad with 450 Kms
+          <ul className="list-disc md:px-20">
+            <li className="pb-2">
+              &rarr; Cab for round trip from Hyderabad-Srisailam-Hyderabad with 450 Kms
               limit.
             </li>
-            <li>State Permit(approx ₹500 to ₹1000)</li>
-            <li>Service tax at 6%</li>
-            <li>Toll Gate Charges</li>
-            <li>Pickup & Drop from your Hotel/Home</li>
+            <li className="pb-2">&rarr; State Permit(approx ₹500 to ₹1000)</li>
+            <li className="pb-2">&rarr; Service tax at 6%</li>
+            <li className="pb-2">&rarr; Toll Gate Charges</li>
+            <li className="pb-2">&rarr; Pickup & Drop from your Hotel/Home</li>
           </ul>
         </div>
-        <div class="m-8 md:w-1/2 text-xl flex-grow items-center justify-center space-y-5">
-          <h2 class="text-3xl font-bold text-center text-red-600">
+        <div className="m-8 md:w-1/2 text-xl flex-grow items-center justify-center space-y-5">
+          <h2 className="text-3xl font-bold text-center text-red-600">
             Package Exclusions
           </h2>
-          <ul class="list-disc md:px-20 text-gray-700">
-            <li>
-              Charges for attractions, lodgings, accommodation, breakfast or any
+          <ul className="list-disc md:px-20 text-gray-700">
+            <li className="pb-2">
+            &rarr; Charges for attractions, lodgings, accommodation, breakfast or any
               meal.
             </li>
-            <li>500 Kms limit. After that ₹10 or more per Km is applicable.</li>
-            <li>Food for driver is to be provided by customer.</li>
-            <li>Pickup Point should be a single place.</li>
-            <li>One Day mean 12 AM to 11:59 PM</li>
+            <li className="pb-2">&rarr; 500 Kms limit. After that ₹10 or more per Km is applicable.</li>
+            <li className="pb-2">&rarr; Food for driver is to be provided by customer.</li>
+            <li className="pb-2">&rarr; Pickup Point should be a single place.</li>
+            <li className="pb-2">&rarr; One Day mean 12 AM to 11:59 PM</li>
           </ul>
         </div>
       </div>

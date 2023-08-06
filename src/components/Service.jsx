@@ -24,32 +24,32 @@ const Service = () => {
           </li>
           <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-            &rarr; Trip Advisor
+              &rarr; Trip Advisor
             </h1>
           </li>
           <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-            &rarr; Customization & Flexibility
+              &rarr; Customization & Flexibility
             </h1>
           </li>
           <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-            &rarr; Professional Drivers
+              &rarr; Professional Drivers
             </h1>
           </li>
           <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-            &rarr; Comfortable & Safe Journey
+              &rarr; Comfortable & Safe Journey
             </h1>
           </li>
           <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-            &rarr; Proper Luggage Management
+              &rarr; Proper Luggage Management
             </h1>
           </li>
           <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-            &rarr; Well Maintained Vehicles
+              &rarr; Well Maintained Vehicles
             </h1>
           </li>
         </ul>
@@ -58,77 +58,7 @@ const Service = () => {
           <img src={shiva} alt="" />
         </div>
       </div>
-      {/* grid design */}
 
-      {/* <div className='p-4'>
-
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium sm:row-span-2 lg:row-span-2'>
-
-                        <div className='h-full w-full' >
-                            <img src={rental} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-10 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Car Rentals</h1>
-
-                    </div>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium'>
-
-                        <div className='h-full w-full' >
-                            <img src={advisor} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-10 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Trip Advisor</h1>
-
-                    </div>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium lg:row-span-2'>
-
-                        <div className='h-full w-full' >
-                            <img src={Customization} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-20 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Flexibility & <br /> Customization</h1>
-
-                    </div>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium'>
-
-                        <div className='h-full w-full' >
-                            <img src={driver} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-10 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Professional Drivers</h1>
-
-                    </div>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium'>
-
-                        <div className='h-full w-full' >
-                            <img src={safe} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-20 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Comfortable & <br /> Safe Journey</h1>
-
-                    </div>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium'>
-
-                        <div className='h-full w-full' >
-                            <img src={luggage} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-20 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Proper Luggage <br /> Management</h1>
-
-                    </div>
-
-                    <div className='shadow-lg text-[#00095E] text-lg font-medium'>
-
-                        <div className='h-full w-full' >
-                            <img src={Vehicles} alt="" className='h-full w-full' />
-                        </div>
-                        <h1 className='relative bottom-20 left-3 sm:left-8 font-bold text-[1.5rem] leading-9 sm:text-3xl' >Well Maintained <br /> Vehicles</h1>
-
-                    </div>
-
-                </div>
-            </div> */}
     </div>
   );
 };
