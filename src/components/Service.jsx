@@ -1,11 +1,5 @@
 import React from "react";
-import rental from "../Assets/car rental.jpg";
-import advisor from "../Assets/trip advisor.jpg";
-import Customization from "../Assets/customization.jpg";
-import driver from "../Assets/driver.jpg";
-import safe from "../Assets/safe journey.jpg";
-import luggage from "../Assets/luggage.jpg";
-import Vehicles from "../Assets/well vehicles.jpg";
+import shiva from '../Assets/desktop-wallpaper-shiva-lord-shiva-black-thumbnail.jpg'
 
 const Service = () => {
   return (
@@ -21,44 +15,48 @@ const Service = () => {
         </h1>
       </div>
 
-      <div className="w-full flex justify-evenly text-xl text-[#00095E]">
-        <ul className="list-disc text-[#00095E] text-xl grid sm:grid-cols-2">
-          <li className="mt-5 sm:mx-20">
+      <div className="w-full flex justify-evenly md:justify-between md:items-center text-xl text-[#00095E]">
+        <ul className="list-disc text-[#00095E] text-xl grid lg:grid-cols-1">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Car Rentals
+              &rarr; Car Rentals
             </h1>
           </li>
-          <li className="mt-5 sm:mx-20">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Trip Advisor
+            &rarr; Trip Advisor
             </h1>
           </li>
-          <li className="mt-5 sm:mx-20">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Customization & Flexibility
+            &rarr; Customization & Flexibility
             </h1>
           </li>
-          <li className="mt-5 sm:mx-20">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Professional Drivers
+            &rarr; Professional Drivers
             </h1>
           </li>
-          <li className="mt-5 sm:mx-20">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Comfortable & Safe Journey
+            &rarr; Comfortable & Safe Journey
             </h1>
           </li>
-          <li className="mt-5 sm:mx-20">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Proper Luggage Management
+            &rarr; Proper Luggage Management
             </h1>
           </li>
-          <li className="mt-5 sm:mx-20">
+          <li className="mt-5 md:mr-20 md:ml-0 lg:mx-20">
             <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-              Well Maintained Vehicles
+            &rarr; Well Maintained Vehicles
             </h1>
           </li>
         </ul>
+
+        <div className="md:inline-block hidden">
+          <img src={shiva} alt="" />
+        </div>
       </div>
       {/* grid design */}
 

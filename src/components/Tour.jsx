@@ -15,6 +15,7 @@ import tour10 from "../Assets/tour10.webp";
 import tour11 from "../Assets/tour11.jpg";
 import tour12 from "../Assets/tour12.jpg";
 import tour13 from "../Assets/tour13.avif";
+import tour14 from "../Assets/images (24).jpeg";
 import { BsFillTelephoneFill, BsWhatsapp } from "react-icons/bs";
 import { Constants } from "../constants";
 
@@ -144,44 +145,48 @@ const Tour = () => {
       </div>
 
       <div className="my-24">
-        <div className="w-auto flex justify-evenly text-xl text-[#00095E]">
-          <ul className="list-disc text-[#00095E] text-xl grid sm:grid-cols-2">
+        <div className="w-auto flex justify-evenly lg:justify-between lg:items-center text-xl text-[#00095E]">
+          <ul className="list-disc text-[#00095E] text-xl grid sm:grid-cols-1">
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Srisailam Mallikarjuna Jyotirlinga
+                &rarr; Srisailam Mallikarjuna Jyotirlinga
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Bramarambika Devi Temple
+              &rarr; Bramarambika Devi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Sakshi Ganapathi Temple
+              &rarr; Sakshi Ganapathi Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Paladhara, Panchadhara
+              &rarr; Paladhara, Panchadhara
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Hatkeshwar Temple
+              &rarr; Hatkeshwar Temple
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Srisailam Dam
+              &rarr; Srisailam Dam
               </h1>
             </li>
             <li className="mt-5 sm:mx-20">
               <h1 className="relative bottom-10 left-3 sm:left-8 font-bold leading-9 sm:text-2xl">
-                Paatala Ganga
+              &rarr; Paatala Ganga
               </h1>
             </li>
           </ul>
+
+          <div className="lg:inline-block hidden">
+            <img src={tour14} alt="" className="w-[25vw]" />
+          </div>
         </div>
       </div>
 

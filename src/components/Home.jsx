@@ -1,25 +1,25 @@
 import React from "react";
-import video from "../Assets/production_id_4063585 (720p).mp4";
-import logo from "../Assets/logo.png";
-import { Link } from "react-router-dom";
 import "./styles.css";
+import img from '../Assets/tour8.png'
 import { Constants } from "../constants";
 
 const Home = () => {
   return (
     <div>
       <div
-        className="flex absolute md:bg-[#000000dd] bg-[#00000099] w-full items-center 
+        className="flex absolute bg-[#00000099] w-full items-center 
         justify-center h-screen overflow-hidden"
       >
-        <video
+        <img src={img} alt="" className="absolute -z-10 w-auto 
+            min-w-full min-h-full max-w-none bg-cover bg-no-repeat" />
+        {/* <video
           src={video}
           autoPlay="{true}"
           loop
           muted
           className="absolute -z-10 w-auto 
             min-w-full min-h-full max-w-none bg-cover bg-no-repeat"
-        ></video>
+        ></video> */}
       </div>
 
       <div className="xl:mx-28 lg:mx-20 sm:mx-12 mx-4 h-screen relative z-50">
