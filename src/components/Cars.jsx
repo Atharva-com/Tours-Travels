@@ -10,7 +10,7 @@ const Cars = () => {
         <CarCard
           carname={"Swift"}
           capacity={4}
-          imgpath={"/assets/swift.png"}
+          imgpath={'/assets/maruti_dzire_design_and_style.jpg'}
         ></CarCard>
         <CarCard
           carname={"Innova"}
